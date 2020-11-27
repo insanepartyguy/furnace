@@ -27,6 +27,9 @@ def read_temp(device):
             temp_f = temp_c * 9.0 / 5.0 + 32.0
             return round(temp_f, 2)
 
+t = time.localtime()
+current_time = time.strftime("%H:%M:%S", t)
+
 #while True:
 for label, device_id in DEVICES.items():
-    print(label + ": " + str(read_temp(f"{BASE_DIR}/{device_id}/{DEVICE_FILE}")))
+    print(current_time +"  " + label + " : " + str(read_temp(f"{BASE_DIR}/{device_id}/{DEVICE_FILE}")))
