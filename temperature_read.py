@@ -6,10 +6,10 @@ import time
 
 BASE_DIR = '/sys/bus/w1/devices'
 DEVICES = {
-    'Sensor 1': '28-021480dea3ff',
-    'Sensor 2': '28-0317304f88ff',
-    'Sensor 3': '28-0317604c0fff',
-    'Sensor 4': '28-0417302868ff'
+    'Outside Temperature': '28-021480dea3ff',
+    'Incoming': '28-0317304f88ff',
+    'To Storage': '28-0317604c0fff',
+    'House Feed': '28-0417302868ff'
 }
 DEVICE_FILE = '/w1_slave'
 
