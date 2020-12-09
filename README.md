@@ -34,3 +34,5 @@ sudo apt-get update
 sudo apt-get install build-essential python-dev
 
 sudo python setup.py install
+
+reboot the pi and you should be good after this one
