@@ -37,4 +37,11 @@ sudo python setup.py install
 
 Reboot the pi
 
-now run the script provided named "read_temp_humidity.py"
+now run the script provided named "read_dht22.py"
+
+this will print the data.
+
+now we need to install the python requests module so we can send the data to thingspeak
+
+`pip install requests`
+
