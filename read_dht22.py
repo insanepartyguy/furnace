@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 #Libraries
 import Adafruit_DHT as dht
 from time import sleep
