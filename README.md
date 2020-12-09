@@ -35,4 +35,6 @@ sudo apt-get install build-essential python-dev
 
 sudo python setup.py install
 
-reboot the pi and you should be good after this one
+Reboot the pi
+
+now run the script provided named "read_temp_humidity.py"
