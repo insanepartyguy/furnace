@@ -26,7 +26,7 @@ def read_temp(device):
             temp_string = lines[1][equals_pos+2:]
             temp_c = float(temp_string) / 1000.0
             temp_f = temp_c * 9.0 / 5.0 + 32.0
-            return round(temp_f, 2)
+            return round(temp_f, 1)
 
 url = 'http://api.thingspeak.com/update.json'
 myobj = {'api_key': 'REDACTED','field1': str(read_temp(f"{BASE_DIR}/28-021480dea3ff/{DEVICE_FILE}")),'field2': str(read_temp(f"{BASE_DIR}/28-0317304f88ff/{DEVICE_FILE}")),'field3': str(read_$
